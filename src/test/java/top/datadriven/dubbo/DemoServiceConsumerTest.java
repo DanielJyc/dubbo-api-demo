@@ -19,17 +19,12 @@ public class DemoServiceConsumerTest {
         ApplicationConfig application = new ApplicationConfig();
         application.setName("dubbo-api-demo-consumer");
 
-        // 连接注册中心配置
-        RegistryConfig registry = new RegistryConfig();
-        registry.setAddress("10.20.130.230:9090");
-
         // 注意：ReferenceConfig为重对象，内部封装了与注册中心的连接，以及与服务提供方的连接
         // 引用远程服务
         // 此实例很重，封装了与注册中心的连接以及与提供者的连接，请自行缓存，否则可能造成内存和连接泄漏
         ReferenceConfig<DemoService> reference = new ReferenceConfig<DemoService>();
         reference.setApplication(application);
         // 多个注册中心可以用setRegistries()
-        reference.setRegistry(registry);
         reference.setInterface(DemoService.class);
         reference.setUrl("dubbo://localhost:20881");
 
