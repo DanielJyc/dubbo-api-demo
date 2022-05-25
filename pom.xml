@@ -24,7 +24,7 @@
         <dubbo.version>2.5.2</dubbo.version>
         <zkclient.version>0.1</zkclient.version>
         <project.junit.version>4.8.2</project.junit.version>
-        <spring.version>5.2.5.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
         <spring.amqp.version>1.2.0.RELEASE</spring.amqp.version>
         <spring.version>4.2.5.RELEASE</spring.version>
         <spring-core.version>4.2.5.RELEASE</spring-core.version>
