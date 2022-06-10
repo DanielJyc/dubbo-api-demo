@@ -21,7 +21,7 @@
         <slf4j.version>1.7.5</slf4j.version>
         <dom4j.version>1.6.1</dom4j.version>
         <commons-httpclient.version>3.0.1</commons-httpclient.version>
-        <dubbo.version>2.5.2</dubbo.version>
+        <dubbo.version>2.6.12</dubbo.version>
         <zkclient.version>0.1</zkclient.version>
         <project.junit.version>4.8.2</project.junit.version>
         <spring.version>5.2.5.RELEASE</spring.version>
